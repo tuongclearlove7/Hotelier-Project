@@ -1,0 +1,162 @@
+php artisan make:factory RoomFactory
+php artisan make:factory RoomTypeFactory
+php artisan make:factory HotelFactory
+php artisan make:factory HotelTypeFactory
+php artisan make:factory ServiceFactory
+php artisan make:factory ServiceTypeFactory
+php artisan make:factory BookingDetailFactory
+php artisan make:factory BookingFactory
+php artisan make:factory BookingReceiptFactory
+php artisan make:factory CityFactory
+php artisan make:factory PromotionFactory
+php artisan make:factory BankFactory
+
+
+php artisan make:request StoreRoomTypeRequest
+php artisan make:request StoreRoomRequest
+php artisan make:request StoreHotelTypeRequest
+php artisan make:request StoreHotelRequest
+php artisan make:request StoreServiceTypeRequest
+php artisan make:request StoreServiceRequest
+php artisan make:request StoreBookingDetailRequest
+php artisan make:request StoreBookingRequest
+php artisan make:request StoreBookingReceiptRequest
+php artisan make:request StoreCityRequest
+php artisan make:request StorePromotionRequest
+php artisan make:request StoreBankRequest
+
+
+php artisan make:request UpdateRoomTypeRequest
+php artisan make:request UpdateRoomRequest
+php artisan make:request UpdateHotelTypeRequest
+php artisan make:request UpdateHotelRequest
+php artisan make:request UpdateServiceTypeRequest
+php artisan make:request UpdateServiceRequest
+php artisan make:request UpdateBookingDetailRequest
+php artisan make:request UpdateBookingRequest
+php artisan make:request UpdateBookingReceiptRequest
+php artisan make:request UpdateCityRequest
+php artisan make:request UpdatePromotionRequest
+php artisan make:request UpdateBankRequest
+
+php artisan make:model RoomType
+php artisan make:model Room
+php artisan make:model HotelType
+php artisan make:model Hotel
+php artisan make:model ServiceType
+php artisan make:model Service
+php artisan make:model BookingDetail
+php artisan make:model Booking
+php artisan make:model BookingReceipt
+php artisan make:model City
+php artisan make:model Promotion
+php artisan make:model Bank
+php artisan make:model Role
+php artisan make:model Role_user
+php artisan make:model Permission
+php artisan make:model Permission_role
+
+php artisan make:migration create_Room_Types_table --create=Room_Types
+php artisan make:migration create_Hotel_Types_table --create=Hotel_Types
+php artisan make:migration create_Service_Types_table --create=Service_Types
+php artisan make:migration create_Promotions_table --create=Promotions
+php artisan make:migration create_Cities_table --create=Cities
+php artisan make:migration create_Promotions_table --create=Promotions
+php artisan make:migration create_Hotels_table --create=Hotels
+php artisan make:migration create_Services_table --create=Services
+php artisan make:migration create_Rooms_table --create=Rooms
+php artisan make:migration create_Booking_Details_table --create=Booking_Details
+php artisan make:migration create_Bookings_table --create=Bookings
+php artisan make:migration create_Booking_Receipts_table --create=Booking_Receipts
+php artisan make:migration create_Banks_table --create=Banks
+php artisan make:migration create_admins_table --create=admins
+php artisan make:migration create_roles_table --create=roles
+php artisan make:migration create_role_users_table --create=role_users
+php artisan make:migration create_permissions_table --create=permissions
+php artisan make:migration create_permission_roles_table --create=permission_roles
+
+php artisan make:migration create_users_table --create=users
+
+
+
+php artisan migrate --path=/database/migrations/2023_08_25_142347_create__cities_table.php
+php artisan migrate --path=/database/migrations/2023_08_25_142346_create__hotel__types_table.php
+php artisan migrate --path=/database/migrations/2023_08_25_142857_create__hotels_table.php
+php artisan migrate --path=/database/migrations/2023_08_25_142347_create__promotions_table.php 
+php artisan migrate --path=/database/migrations/2023_08_25_142346_create__service__types_table.php
+php artisan migrate --path=/database/migrations/2023_08_25_142858_create__services_table.php
+php artisan migrate --path=/database/migrations/2023_08_25_142346_create__room__types_table.php
+php artisan migrate --path=/database/migrations/2023_08_25_142858_create__rooms_table.php
+
+php artisan migrate --path=/database/migrations/2023_08_29_152148_create__bookings_table.php
+php artisan migrate --path=/database/migrations/2023_08_29_152148_create__booking__details_table.php
+php artisan migrate --path=/database/migrations/2023_08_28_163210_create__banks_table.php
+
+php artisan migrate --path=/database/migrations/2023_08_29_152148_create__booking__receipts_table.php
+php artisan migrate --path=/database/migrations/2023_08_29_164556_create__service__details_table.php
+
+
+php artisan migrate --path=/database/migrations/2023_09_25_050838_create_admins_table.php
+php artisan migrate --path=/database/migrations/2023_09_25_044559_create_roles_table.php
+php artisan migrate --path=/database/migrations/2023_09_25_044559_create_role_users_table.php
+php artisan migrate --path=/database/migrations/2023_09_25_044559_create_permissions_table.php
+php artisan migrate --path=/database/migrations/2023_09_25_044600_create_permission_roles_table.php
+
+
+
+php artisan make:seeder HotelTypeTableSeeder
+php artisan make:seeder PromotionTableSeeder
+php artisan make:seeder CityTableSeeder
+php artisan make:seeder ServiceTypeTableSeeder
+php artisan make:seeder RoomTypeTableSeeder
+php artisan make:seeder HotelTableSeeder
+php artisan make:seeder RoomTableSeeder
+php artisan make:seeder BookingDetailTableSeeder
+php artisan make:seeder BookingTableSeeder
+php artisan make:seeder BookingReceiptTableSeeder
+
+
+php artisan db:seed --class=HotelTypeTableSeeder
+php artisan db:seed --class=PromotionTableSeeder
+php artisan db:seed --class=CityTableSeeder
+php artisan db:seed --class=ServiceTypeTableSeeder
+php artisan db:seed --class=RoomTypeTableSeeder
+php artisan db:seed --class=HotelTableSeeder
+php artisan db:seed --class=RoomTableSeeder
+php artisan db:seed --class=BookingDetailTableSeeder
+php artisan db:seed --class=BookingTableSeeder
+php artisan db:seed --class=BookingReceiptTableSeeder
+
+
+php artisan make:factory BookingDetailFactory
+php artisan make:request StoreBookingDetailRequest
+php artisan make:request UpdateBookingDetailRequest
+php artisan make:model BookingDetail
+php artisan make:migration create_Booking_Details_table --create=Booking_Details
+php artisan make:seeder BookingDetailTableSeeder
+
+
+php artisan make:model Bank
+php artisan make:request UpdateBankRequest
+php artisan make:request StoreBankRequest
+php artisan make:factory BankFactory
+php artisan make:migration create_Banks_table --create=Banks
+
+
+
+ php artisan db:seed --class=DatabaseSeeder
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
