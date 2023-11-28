@@ -33,13 +33,33 @@
 
 ```js
 
-An online booking website provides users with a convenient platform to make reservations for various services and accommodations. Users can access the website to browse a wide range of options, including hotels, and rooms. The platform typically offers a user-friendly interface where customers can input their travel dates, preferences, and other relevant details to find suitable options.
+An online booking website provides users with a convenient platform to 
+make reservations for various services and accommodations. 
+Users can access the website to browse a wide range 
+of options, including hotels, and rooms. 
+The platform typically offers a user-friendly 
+interface where customers can input their travel dates, preferences, and 
+other relevant details to find suitable options.
 
-Key features of online booking websites often include real-time availability, detailed descriptions, and images of the services or accommodations, along with pricing information. Users can compare different choices, read reviews from other customers, and make informed decisions before completing their bookings.
+Key features of online booking websites often include 
+real-time availability, detailed descriptions, and images of 
+the services or accommodations, along with pricing information. 
+Users can compare different choices, read reviews from other customers, 
+and make informed decisions before completing their bookings.
 
-Once a user decides on a particular service, the website guides them through a seamless booking process, allowing them to confirm their reservation by providing necessary details and making secure online payments. Confirmation emails are sent to users, summarizing their bookings and providing essential information such as booking references, check-in/check-out times, and cancellation policies.
+Once a user decides on a particular service, the website guides them 
+through a seamless booking process, allowing them to confirm their reservation 
+by providing necessary details and making secure online payments. 
+Confirmation emails are sent to users, summarizing their bookings and 
+providing essential information such as booking references, 
+check-in/check-out times, and cancellation policies.
 
-Furthermore, these websites may incorporate loyalty programs, promotional discounts, and customer support services to enhance the overall user experience. The aim is to streamline the booking process, offering a convenient and efficient solution for individuals seeking to plan and book their travel and accommodation arrangements online.
+Furthermore, these websites may incorporate loyalty programs, 
+promotional discounts, and customer support services to enhance 
+the overall user experience. 
+The aim is to streamline the booking process, offering a convenient and 
+efficient solution for individuals seeking 
+to plan and book their travel and accommodation arrangements online.
 
 
 ```
