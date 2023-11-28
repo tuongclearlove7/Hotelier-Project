@@ -1,6 +1,4 @@
-## Project Hotelier
-
-
+## HOTEL BOOKING ONLINE - HOTELIER PROJECT
 
 ## Member 
 ```shell
