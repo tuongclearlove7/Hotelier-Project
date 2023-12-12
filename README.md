@@ -17,12 +17,13 @@
 
 ```js
 
-+ Login and logout.
-+ Set up rooms.
++ Login & logout, authentication & authorization.
++ Granting permissions to users.
 + Manage customers.
-+ Manage bookings, Booking room hotel.
++ Set up rooms, Manage bookings, Booking room hotel.
 + Send an email to confirm the room reservation for the customer.
 + Cancel the booking.
+
 
 ```
 
