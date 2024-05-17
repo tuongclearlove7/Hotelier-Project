@@ -26,7 +26,7 @@
 
 ```
 
-## Iteration
+## Integrations
 
 ```js
 VNpay payment
